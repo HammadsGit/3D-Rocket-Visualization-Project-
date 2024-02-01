@@ -28,9 +28,6 @@ This project was developed by a team, following best practices in graphics progr
 
 For more information on the development process, technical details, and the team's contributions, please refer to the project documentation.
 
-## License
-This project is licensed under the terms of the MIT license.
-
 ## Acknowledgments
 Special thanks to the data providers for the terrain and elevation datasets, and to all open-source software and libraries that made this project possible.
 

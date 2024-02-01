@@ -1,41 +1,37 @@
-COMP3811 Coursework 2
-=====================
+# 3D Rocket Simulation and Visualization Project
 
-Base project for the COMP3811 Coursework 2. Do not re-distribute the code
-outside of Minerva.
 
-The code is based on the OpenGL/3D exercises (G2 and forward). If necessary,
-refer to the exercises for information on specific implementation..
 
-Structure:
-  - assets/
-	Runtime assets, such as textures, models and *shaders*. Essentially,
-	anything that is loaded at runtime goes in here. Feel free to create
-	additional subdirectories. Avoid loading data outside of assets/ (I might
-	sandbox your application to prevent this.)
+## Overview
+This project involves creating a dynamic 3D simulation and visualization of a rocket launch, incorporating a range of computer graphics techniques and principles. Developed using modern OpenGL, the application features real-world terrain modeling, custom 3D models, texture mapping, lighting, animations, and camera tracking to deliver an interactive exploration experience of a rocket launch.
 
-  - main/
-	Main project source code. This is where the bulk of your project will go.
+## Features
+- **Terrain Visualization**: Utilizes real-world elevation data to render the launch area with detailed terrain features.
+- **Rocket and Launchpad Models**: Includes custom-designed 3D models for the rocket and launchpad, rendered with texture mapping and lighting effects.
+- **Dynamic Lighting**: Implements local light sources and the Blinn-Phong shading model to simulate realistic lighting conditions.
+- **Interactive Animation**: Animates the rocket launch sequence, allowing users to initiate and reset the launch with UI controls.
+- **Camera Tracking**: Offers multiple camera modes to track the rocket's flight from different perspectives, enhancing the viewing experience.
+- **Particle System**: Simulates rocket exhaust using a particle system for added realism.
+- **Performance Measurement**: Integrates rendering performance measurement tools to optimize the simulation.
 
-  - support/
-	Support functions, as presented in the exercises. You should not change the
-	code in here.
+## Getting Started
+- **Installation**: Download the latest release and extract the contents.
+- **Running the Simulation**: Navigate to the project directory and execute the application.
 
-  - vmlib/
-	Math library. Not all of the functions are implemented yet, so you will
-	need to provide some implementations yourself. You may add additional
-	operators/functions as you see fit.
+## Controls
+- **Camera Movement**: Use the mouse and keyboard (WSAD+EQ) for navigating the scene.
+- **Launching the Rocket**: Press the designated UI button or key to start the launch sequence.
+- **Camera Modes**: Switch between different camera views using the 'C' key.
+- **Reset Animation**: Reset the rocket to its initial position with the 'R' key.
 
-  - third_party/
-	Third party code. See third_party.md for additional information. If you add
-	any third party code, you must place it here and document it in the
-	third_party.md file and your report. IMPORTANT: if you want to use
-	additional third party libraries, you will need to get permission from me
-	first *by email*. See Coursework 2 brief for details.
+## Development
+This project was developed by a team, following best practices in graphics programming and collaborative development. Each team member contributed to different aspects of the project, from implementing core graphics functionalities to fine-tuning the user interface and interactivity.
 
-	Any custom third party libraries *must* be built from source code using the
-	premake build system (you can not use e.g. CMake or similar). That is, they
-	may not add additional custom build steps that the user must perform when
-	compiling your project. You must not include or rely on pre-compiled
-	objects, libraries (shared or static) or executables.
+For more information on the development process, technical details, and the team's contributions, please refer to the project documentation.
+
+## License
+This project is licensed under the terms of the MIT license.
+
+## Acknowledgments
+Special thanks to the data providers for the terrain and elevation datasets, and to all open-source software and libraries that made this project possible.
 

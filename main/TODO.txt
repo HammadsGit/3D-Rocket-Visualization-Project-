@@ -1,0 +1,5 @@
+1.1 - Write Tests for the matrix calculation
+
+1.2 - Make Window Resizable
+1.2 - Add Proper Camera Movement
+1.2 - Add simplified directional lighting

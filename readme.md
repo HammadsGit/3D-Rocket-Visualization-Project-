@@ -1,10 +1,9 @@
 # 3D Rocket Simulation and Visualization Project
+This project involves creating a dynamic 3D simulation and visualization of a rocket launch, incorporating a range of computer graphics techniques and principles. Developed using modern OpenGL, the application features real-world terrain modeling, custom 3D models, texture mapping, lighting, animations, and camera tracking to deliver an interactive exploration experience of a rocket launch.
+
 ![Main Screen](assets/image1.png)
 ![Main Screen](assets/image2.png)
 ![Main Screen](assets/image3.png)
-## Overview
-This project involves creating a dynamic 3D simulation and visualization of a rocket launch, incorporating a range of computer graphics techniques and principles. Developed using modern OpenGL, the application features real-world terrain modeling, custom 3D models, texture mapping, lighting, animations, and camera tracking to deliver an interactive exploration experience of a rocket launch.
-
 ## Features
 - **Terrain Visualization**: Utilizes real-world elevation data to render the launch area with detailed terrain features.
 - **Rocket and Launchpad Models**: Includes custom-designed 3D models for the rocket and launchpad, rendered with texture mapping and lighting effects.
